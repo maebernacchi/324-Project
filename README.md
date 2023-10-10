@@ -1,7 +1,7 @@
 # 324-Project
 324 Individual project
 ## To access my project:
-Upload the app.R, all_states.xlsx, and minty.css file into RStudio, then run the code!
+Upload the app.R, states_all.xlsx, and minty.css file into RStudio, then run the code!
 # What is the Project purpose?
 To show any discrepancies between the amount of money spent on students as time goes on, and to see how that affects the standardized test scores of 4th and 8th graders
 
