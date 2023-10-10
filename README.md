@@ -1,6 +1,7 @@
 # 324-Project
 324 Individual project
-
+## To access my project:
+Upload the app.R and minty.css file into RStudio, then run the code!
 # What is the Project purpose?
 To show any discrepancies between the amount of money spent on students as time goes on, and to see how that affects the standardized test scores of 4th and 8th graders
 
@@ -34,7 +35,6 @@ There is a significant upward trend between average scores and spending per stud
 # What needs improvement? (Wish list)
 A less in-your-face way to represent the data and a way to include users in the experience.
 
-To access my (eventual) project, you will click a link to a shinyapp that will (someday) appear below this sentence:
 
 
 # Basic documentation:
