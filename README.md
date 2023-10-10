@@ -44,7 +44,7 @@ shiny, magrittr, readxl, wordcloud, shinythemes, ggplot2, gridExtra, and bslib
 # Describing the process and development to make your work reproducible.
 A lot of cleaning was required of the data, which makes it not close to the original source data, which is why I am posting the data alongside my app and source code, as it will allow for the easier recreation of this work. The graphs are also all very similar with clear axis, but I do plan to further flesh out this project on my own time.
 
-# Description of design decisions (encoding/mapping). Use the taxonomy of the what-why-how analysis framework presented by Tamara Munzner.
+# Description of design decisions (encoding/mapping).
 What: All of the data being represented is in the form of a scatterplot. 
 
 How: Using similar axis, as well as recreating the same graph layout, added the ability of the user to see an upward trend in almost every graph.
