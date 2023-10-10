@@ -6,6 +6,7 @@ library(shinythemes)
 library(ggplot2)
 library(gridExtra)
 library(bslib)
+
 # Define UI for application
 
 
@@ -130,9 +131,9 @@ server <- function(input, output) {
     })
       output$westEightReadEPS <- renderPlot({
       #Plot for the West 8th grade Reading Average and Expenditure per Student
-      plot(westDet$AVG_READING_4_SCORE, westDet$EXPEND_PER_STUDENT, 
-           main = "4th grade Reading Average and Expenditure per Student", 
-           xlab = "4th grade Reading Average",
+      plot(westDet$AVG_READING_8_SCORE, westDet$EXPEND_PER_STUDENT, 
+           main = "8th grade Reading Average and Expenditure per Student", 
+           xlab = "8th grade Reading Average",
            ylab = "Expenditure per Student")
     })
       
@@ -168,9 +169,9 @@ server <- function(input, output) {
       })
       output$midWestEightReadEPS <- renderPlot({
         #Plot for the Midwest 8th grade Reading Average and Expenditure per Student
-        plot(midwestDet$AVG_READING_4_SCORE, midwestDet$EXPEND_PER_STUDENT, 
-             main = "4th grade Reading Average and Expenditure per Student", 
-             xlab = "4th grade Reading Average",
+        plot(midwestDet$AVG_READING_8_SCORE, midwestDet$EXPEND_PER_STUDENT, 
+             main = "8th grade Reading Average and Expenditure per Student", 
+             xlab = "8th grade Reading Average",
              ylab = "Expenditure per Student")
       })
       
@@ -206,9 +207,9 @@ server <- function(input, output) {
       })
       output$northeastEightReadEPS <- renderPlot({
         #Plot for the Northeast 8th grade Reading Average and Expenditure per Student
-        plot(northeastDet$AVG_READING_4_SCORE, northeastDet$EXPEND_PER_STUDENT, 
-             main = "4th grade Reading Average and Expenditure per Student", 
-             xlab = "4th grade Reading Average",
+        plot(northeastDet$AVG_READING_8_SCORE, northeastDet$EXPEND_PER_STUDENT, 
+             main = "8th grade Reading Average and Expenditure per Student", 
+             xlab = "8th grade Reading Average",
              ylab = "Expenditure per Student")
       })
       
@@ -244,9 +245,9 @@ server <- function(input, output) {
       })
       output$southeastEightReadEPS <- renderPlot({
         #Plot for the Southeast 8th grade Reading Average and Expenditure per Student
-        plot(southeastDet$AVG_READING_4_SCORE, southeastDet$EXPEND_PER_STUDENT, 
-             main = "4th grade Reading Average and Expenditure per Student", 
-             xlab = "4th grade Reading Average",
+        plot(southeastDet$AVG_READING_8_SCORE, southeastDet$EXPEND_PER_STUDENT, 
+             main = "8th grade Reading Average and Expenditure per Student", 
+             xlab = "8th grade Reading Average",
              ylab = "Expenditure per Student")
       })
       
@@ -282,9 +283,9 @@ server <- function(input, output) {
       })
       output$southWestEightReadEPS <- renderPlot({
         #Plot for the Southwest 8th grade Reading Average and Expenditure per Student
-        plot(southwestDet$AVG_READING_4_SCORE, southwestDet$EXPEND_PER_STUDENT, 
-             main = "4th grade Reading Average and Expenditure per Student", 
-             xlab = "4th grade Reading Average",
+        plot(southwestDet$AVG_READING_8_SCORE, southwestDet$EXPEND_PER_STUDENT, 
+             main = "8th grade Reading Average and Expenditure per Student", 
+             xlab = "8th grade Reading Average",
              ylab = "Expenditure per Student")
       })
 }
