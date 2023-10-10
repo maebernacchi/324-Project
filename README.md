@@ -1,5 +1,5 @@
 # 324-Project
-324 Individual project
+324 Individual Project Video Description: https://youtu.be/uUyISPNomlQ
 ## To access my project:
 Upload the app.R, states_all.xlsx, and minty.css file into RStudio, then run the code!
 # What is the Project purpose?
